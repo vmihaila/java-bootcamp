@@ -27,7 +27,6 @@ public class ExceptionsDemo {
 
     }
 
-
     private static void catchingMultipleExceptionsV1() {
 
         try {
@@ -47,7 +46,6 @@ public class ExceptionsDemo {
 
     }
 
-
     private static void catchingMultipleExceptionsV2() {
 
         try {
@@ -62,7 +60,6 @@ public class ExceptionsDemo {
 
     }
 
-
     private static void tryWithResources() {
 
         try(CustomResource resource = new CustomResource()) {
@@ -76,7 +73,6 @@ public class ExceptionsDemo {
         }
 
     }
-
 
     private static void fourthExerciseFromQuiz() {
 

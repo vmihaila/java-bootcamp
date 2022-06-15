@@ -3,7 +3,7 @@ package exceptions.data.model;
 import exceptions.data.exceptions.CannotHopException;
 import exceptions.data.exceptions.NoMoreCarrotsException;
 
-public class Bunny extends Hoper{
+public class Bunny extends Hoper {
 
     public static void main(String ...args) {
 

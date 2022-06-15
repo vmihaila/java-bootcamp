@@ -10,7 +10,6 @@ public class CollectionsDemo {
 
     }
 
-
     private static void listIterator() {
 
         Collection<Integer> collection = new ArrayList<>();
@@ -46,7 +45,6 @@ public class CollectionsDemo {
         System.out.println(fruits);
 
     }
-
 
     private static void setAddElements() {
 
@@ -86,8 +84,6 @@ public class CollectionsDemo {
         System.out.println(linkedHashSet);
     }
 
-
-
     private static void mapDemo() {
 
         Map<String, Student> studentMap = new HashMap<>();
@@ -110,7 +106,6 @@ public class CollectionsDemo {
         // {ST03=Student{name = Denisa, age = 20}, ST04=Student{name = Liviu, age = 22}, ST02=Student{name = Florin, age = 21}}
 
     }
-
 
     private static void comparableDemo() {
 

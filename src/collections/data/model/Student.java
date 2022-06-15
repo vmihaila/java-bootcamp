@@ -1,6 +1,6 @@
 package collections.data.model;
 
-public class Student implements Comparable<Student>{
+public class Student implements Comparable<Student> {
 
     private String name;
     private Integer age;
