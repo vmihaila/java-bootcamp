@@ -6,7 +6,10 @@ public class ExceptionsDemo {
 
     public static void main(String ...args){
 
-        tryWithResources();
+        Object obj = Integer.valueOf(3);
+        String str = (String) obj;
+        obj = null;
+        System.out.println(obj.equals(null));
 
     }
 
@@ -75,6 +78,15 @@ public class ExceptionsDemo {
 
         }
 
+    }
+
+
+    private static void fourthExerciseFromQuiz() {
+
+        Object obj = Integer.valueOf(3);
+        String str = (String) obj;
+        obj = null;
+        System.out.println(obj.equals(null));
     }
 
 
