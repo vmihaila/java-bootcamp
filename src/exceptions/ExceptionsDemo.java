@@ -1,15 +1,12 @@
 package exceptions;
 
+import exceptions.data.model.CustomResource;
+
 import java.io.IOException;
 
 public class ExceptionsDemo {
 
     public static void main(String ...args){
-
-        Object obj = Integer.valueOf(3);
-        String str = (String) obj;
-        obj = null;
-        System.out.println(obj.equals(null));
 
     }
 
